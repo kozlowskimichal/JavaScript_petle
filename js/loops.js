@@ -40,3 +40,18 @@ while (a <10) {
  }
     
 }
+
+/*Preinkremetacja vs Postikrementacja*/
+
+for (var i=1; i<4;){
+//    console.log(++i);
+    i = i + 1;
+    console.log(i);
+}
+
+console.log('______');
+    for (var i=1; i<4); {
+//    console.log(i++)
+      console.log(i);
+      i = i +1;
+}
