@@ -16,7 +16,7 @@ for ( var i =4; i>0; i--){
 
 var i=0;
 while (i < 10) {
-console.log ("Pętla while [i= "+ i +"]");
+console.log("Pętla while [i = "+ i +"]");
 i++;
 }
 
@@ -55,3 +55,16 @@ console.log('______');
       console.log(i);
       i = i +1;
 }
+
+
+/*Przeskakiwanie do kolejnej iteracji*/
+
+for (var b = 0; b <6; ++b){
+    
+    if (b ==3) {
+        continue;
+    }   else {
+            console.log("--");
+    }
+}
+
